@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+.graphs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.graph {
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
